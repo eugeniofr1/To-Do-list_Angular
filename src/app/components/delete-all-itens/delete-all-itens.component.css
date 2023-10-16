@@ -1,0 +1,14 @@
+.container__btn-deletar-todos > button{
+  background: var(--red);
+  font-family: var(--font);
+  font-weight: 700;
+  font-size: 16px;
+  color: var(--white);
+
+  padding: 15px;
+  width: 200px;
+
+  border-radius: 20px;
+}
+
+

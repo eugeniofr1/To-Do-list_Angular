@@ -1,0 +1,33 @@
+.container__input {
+  background: var(--secondary-color);
+  margin: 0 auto;
+  padding: 15px 0;
+  position: relative;
+  top: -30px;
+  width: 80%;
+}
+
+.container__input > input{
+  background: transparent;
+  color: var(--white);
+  font-family: var(--font-roboto);
+  padding: 5px;
+  font-weight: 400;
+  font-size: 16px;
+  border: none;
+  width: 100%;
+  text-align: center;
+}
+
+.container__input > input::placeholder{
+  color: white;
+  border: none;
+  font-size: 16px;
+  font-family: var(--font-roboto);
+  font-weight: 400;
+  padding: 0px;
+}
+
+input:focus {
+  outline: none;
+}

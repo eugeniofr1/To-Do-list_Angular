@@ -1,0 +1,12 @@
+.container__img{
+  background: var(--white);
+  margin-top: 20px;
+  padding: 80px;
+  min-height: 250px;
+  position: relative;
+}
+
+.container__img > img{
+  width: 160px;
+  height: 166px;
+}
