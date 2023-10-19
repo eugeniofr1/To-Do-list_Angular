@@ -8,6 +8,7 @@ import { HomeComponent } from './components/pages/home/home.component';
 import { InputAddItensComponent } from './components/input-add-itens/input-add-itens.component';
 import { DeleteAllItensComponent } from './components/delete-all-itens/delete-all-itens.component';
 import { TodoListComponent } from './components/todo-list/todo-list.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { TodoListComponent } from './components/todo-list/todo-list.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
